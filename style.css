@@ -1,8 +1,8 @@
 /*-----------------------------------------------------------------------------------
-	    micasa
-        Built with Blocs
+	    Micasa
+        Built with Love
 -----------------------------------------------------------------------------------*/
- 
+
 body{
 	margin:0;
 	padding:0;
@@ -20,7 +20,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 .page-preloader{position: fixed;top: 0;bottom: 0;width: 100%;z-index:100000;background:#FFFFFF url("img/pageload-spinner.gif") no-repeat center center;}
 
-/* = Blocs
+/* = Blocks
 -------------------------------------------------------------- */
 
 .bloc{
@@ -40,7 +40,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 	padding-right:0;
 }
 
-/* = Full Screen Blocs 
+/* = Full Screen Blocks
 -------------------------------------------------------------- */
 
 .bloc-fill-screen{
@@ -144,7 +144,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 	transform: rotate(-90deg);
 }
 
-/* = Bric adjustment margins
+/* = Blocks adjustment margins
 -------------------------------------------------------------- */
 
 .mg-md{
@@ -179,7 +179,7 @@ button{
 
 
 
-/* = Text & Icon Styles
+/* = Texto & Icone Estilo normal & Estilo pasta americana 3D
 -------------------------------------------------------------- */
 .threeD-t{
 	text-shadow:0 1px 0 #ccc,0 2px 0 #c9c9c9,0 3px 0 #bbb,0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25),0 20px 20px rgba(0,0,0,.15);
@@ -203,7 +203,7 @@ button{
 
 
 
-/* ScrollToTop button */
+/* Pra cima button */
 
 .scrollToTop{
 	width:40px;
@@ -243,25 +243,25 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 -------------------------------------------------------------- */
 
 
-/* Bloc image backgrounds */
+/* Blocks image backgrounds */
 
 .bg-wp1824192{
-	background-image:url("img/wp1824192.jpg");
+	background-image:url("https://wallpapercave.com/wp/wp1824192.jpg");
 }
 
 
 
-/* = Mobile adjustments 
+/* = Mobile adjustments
 -------------------------------------------------------------- */
 @media (max-width: 1024px)
 {
     .bloc{
-        padding-left: 20px; 
-        padding-right: 20px;  
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .bloc.full-width-bloc, .bloc-tile-2.full-width-bloc .container, .bloc-tile-3.full-width-bloc .container, .bloc-tile-4.full-width-bloc .container{
-        padding-left: 0; 
-        padding-right: 0;  
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 @media (max-width: 991px)
@@ -284,7 +284,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
         padding:0 10px;
     }
     .btn-dwn{
-       display:none; 
+       display:none;
     }
     .voffset{
         margin-top:5px;
